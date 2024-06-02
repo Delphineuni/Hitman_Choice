@@ -19,7 +19,7 @@ def center_window(width, height):
     
 center_window(width,height)
 win.title("Hitman, World of Assassination")
-if sys.platform == 'Windows':
+if sys.platform == 'win32':
     win.attributes("-toolwindow",0)
 win.attributes("-alpha",0.0)
 title_bar = tkinter.Frame(Top, bg='black', relief='raised', bd=2,highlightthickness=0,height=50)
