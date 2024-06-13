@@ -1,23 +1,26 @@
 ﻿# Hitman choice
+<img align="right" src="https://github.com/Delphineuni/Hitman_choice/blob/main/HitmanChoice_preview.PNG">
+A small GUI app that allows you to select the Hitman locations and it will pick one among them 
 
-A small GUI app that allows you to select the Hitman locations and it will pick one among them
+### Requirements: Tkinter 
+You can try one of those commands depending on your OS: 
 
+<br>
 
-### Requirements: Tkinter
-You can try one of those commands depending on your OS:
+**Windows** <br>
+should be installed by default, otherwise: 
+`pip install tk` 
 
-**Windows**
-should be installed by default, otherwise:
-`pip install tk`
-
-**Debian/Ubuntu**
+**Debian/Ubuntu** <br>
 `apt install python3-tk`
 
-**RedHat/CentOS**
+**RedHat/CentOS** <br>
 `yum install python3-tkinter`
 
-**Arch**
+**Arch** <br>
 `pacman -S python-tk`
+
+<br>
 
 > [!NOTE]
 > The flag emojis do not work for now (They look neat on [GitHub](Hitman_choice.py) thought :sparkles: )
